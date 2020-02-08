@@ -38,3 +38,32 @@ $calendar = [
 //echoが”で囲まれていない
 // 12月を表示する
 echo $calendar["December"];
+
+//PHP3 課題１
+$name = "hiroki";
+if($name = "hiroki") {
+  echo "私は.#name.です";
+} else {
+  echo "あなたの名前ではありません";
+}
+//PHP3 課題２
+for($i = 0; $i <1000; $i++){
+  echo $i;
+}
+//PHP3 課題３
+$fruits = array("apple,orange、banana,peach,cherry");
+
+foreach($fruits as $fruit)
+echo $fruit;
+
+//PHP3 課題4
+/* for文の始めの値を定義する /
+$start = 1;
+/* for文の終わりの値を定義する */
+$end = 100;
+
+for($i = "start; $i <= $end $i++){
+   // 5で割り切れたら{}内を実行する
+  if($i % 5 == 0)
+ echo $i
+}
